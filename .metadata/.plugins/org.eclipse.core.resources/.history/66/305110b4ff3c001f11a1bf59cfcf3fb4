@@ -13,15 +13,12 @@ public class ProductMgmt {
 //		computer.price = 2000000;
 //		System.out.printf("name= %s, price =%,d원\n", computer.name, computer.price);
 		
-		// Product [] array = new Product[2]; Heap 영역에 Product 클래스만큼 공간 2개를 생성한다.
-		Product [] array = new Product[2];  // Array's Creation
+		// Product [] array = new Product[2]; Heap 영역에 Product 클래스 공간 2개를 생성한다.
+		Product [] array = new Product[2];
 		
 		int i =0;
 		while(i<2) {
-			// array[i] = new Product(); 미리 생성한 공간에 Product 인스턴스를 생성한다.
-			array[i] = new Product(); // Array's Assignment
-			
-			// Value Assignment
+			array[i] = new Product();
 			System.out.printf("name : ");array[i].name= sc.next();
 			System.out.printf("price : "); array[i].price= sc.nextInt();
 			i++;
