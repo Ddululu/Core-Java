@@ -1,0 +1,17 @@
+
+public class ProductMgmt {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Product pencil = new Product();
+		pencil.name="모나미 연필";
+		pencil.price =1000;
+		System.out.printf("name= %s, price =%,d원\n", pencil.name,pencil.price);
+		
+		Product computer = new Product();
+		computer.name ="컴퓨터";
+		computer.price = 2000000;
+		System.out.printf("name= %s, price =%,d원\n", computer.name, computer.price);
+	}
+
+}

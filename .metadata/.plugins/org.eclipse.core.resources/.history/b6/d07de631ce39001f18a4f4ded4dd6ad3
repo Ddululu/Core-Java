@@ -1,0 +1,14 @@
+
+
+public class VariableDemo {
+	public static void main(String[] args) {
+//		String name; // 변수 선언
+//		name ="황신욱"; //name에 값을 할당
+//		int a = 100;
+//		byte b = 10;
+//		char c = 1;
+//		long d = 10000000000L;
+		System.out.printf("%6.d",5);
+		
+	}
+}

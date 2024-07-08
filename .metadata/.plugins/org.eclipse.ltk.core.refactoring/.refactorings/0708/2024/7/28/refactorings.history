@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SungjukMgmt.java&apos; to &apos;SungjukMgmt.java&apos;&#x0D;&#x0A;- Original project: &apos;0708&apos;&#x0D;&#x0A;- Destination element: &apos;SungjukMgmt.java&apos;&#x0D;&#x0A;- Original element: &apos;SungjukMgmt.java&apos;" description="Copy compilation unit" destination="/src&lt;{SungjukMgmt.java" element1="/src&lt;{SungjukMgmt.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1720418622798" units="1" version="1.0"/>
+</session>
