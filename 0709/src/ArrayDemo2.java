@@ -15,11 +15,11 @@ public class ArrayDemo2 {
 //		}; // 한 번에 다 초기화 할 수 있다. 
 		
 		int [] [] array;
-		array = new int[4][3]; // 자바에게 array는 int 형 배열 [4][3] 만큼 사용할 것이라고 알려줌
+		array = new int[4][]; // 자바에게 array는 int 형 배열 [4][3] 만큼 사용할 것이라고 알려줌
 		array[0] = new int []{1,2,3}; // 자바는 초기화를 할 때, 크기를 적지 않음. 배열 안 요소의 갯수가 곧 크기
 		array[1] = new int []{4,5,6}; 
 		array[2] = new int []{7,8,9};
-		array[3] = new int []{10,11,12};
+		array[3] = new int []{10,11,12}; 
 		// 배열에 또 다른 배열을 참조하도록 구성해 array를 쪼개 할당할 수 있다.
 		
 //		array[0] = new int []{1,2,3,4}; 

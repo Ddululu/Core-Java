@@ -6,10 +6,12 @@
 import java.util.Scanner;
 public static void main(String[] args) {
 	public class Japanki {
-		Scanner sc = new Scanner(System.in);
 		String y_n=null;
-		// 2. 화폐를 나누는 배열을 만든다.
+		Scanner sc = new Scanner(System.in);
 		int [] array = {50000,10000,5000,1000,500,100,50,10,5,1};
+
+		
+		// 2. 화폐를 나누는 배열을 만든다.
 		
 		// 1. 돈을 입력받는다.
 		 // 배열이 아니면 초기화 필요.

@@ -10,9 +10,8 @@ public class HelloWorld2 {
 		
 		// 인스턴스 변수를 사용하기 위해서는 인스턴스를 생성한 후 그 인스턴스의 값을 가져와야한다.
 		System.out.println(tmp.str);
-		
 		System.out.println(Test.str2); // 다른 클래스에 있는 static 변수는 속해 있는 클래스 명을 이용해 찾아간다.
-		System.out.println(new Test().str); // 다른 클래스에 있는 인스턴스 변수는 클래스를 생성하고 주소값으로 찾아간다.
+		 // 다른 클래스에 있는 인스턴스 변수는 클래스를 생성하고 주소값으로 찾아간다.
 	}
 
 }

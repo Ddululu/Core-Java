@@ -73,5 +73,5 @@ public class BMI_TEST {
 //		default: System.out.println("성별은 (남/여)로만 입력해 주세요.");
 
 	}
-
+	}
 }
