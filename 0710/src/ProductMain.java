@@ -54,8 +54,8 @@ public class ProductMain {
 			content[i].MaePrice();
 			content[i].Income();
 			content[i].IncomeRate();
-			i++;
-		}while(i<8);
+			i++;        
+		}while(i<7);
 			
 		out_put.output(content);
 	}
