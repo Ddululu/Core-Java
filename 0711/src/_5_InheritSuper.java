@@ -1,10 +1,9 @@
 
 public class _5_InheritSuper {
-	private String overshadow = "James";
+	String overshadow = "James";
 	
-	public void overshadow() {
-		System.out.println("Hello,");
-		System.out.println(overshadow);
+	public void not_overshadow() {
+		System.out.println("Hello,"+overshadow);
 	}
 	
 	public void override() {
