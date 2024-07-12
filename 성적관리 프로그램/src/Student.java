@@ -1,4 +1,4 @@
-public class Student {
+public class Student extends Object{
 	private String hakbun, name;
 	private int kor, eng, math, edp, tot;
 	private double avg;
@@ -13,17 +13,11 @@ public class Student {
 		this.edp = edp;
 	}
 
-	public String getHakbun() {
-		return hakbun;
-	}
+	public String getHakbun() {return hakbun;}
 
-	public void setHakbun(String hakbun) {
-		this.hakbun = hakbun;
-	}
+	public void setHakbun(String hakbun) {this.hakbun = hakbun;}
 
-	public String getName() {
-		return name;
-	}
+	public String getName() {return name;}
 
 	public void setName(String name) {
 		this.name = name;
@@ -84,6 +78,14 @@ public class Student {
 	public void setGrade(char grade) {
 		this.grade = grade;
 	}
+
+	@Override
+	public String toString() {
+		return String.format("Student [hakbun=%s, name=%s, kor=%s, eng=%s, math=%s, edp=%s, tot=%s, avg=%s, grade=%s]",
+				hakbun, name, kor, eng, math, edp, tot, avg, grade);
+	}
+
+
 	
 	
 	
