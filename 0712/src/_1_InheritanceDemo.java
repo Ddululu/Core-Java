@@ -1,5 +1,6 @@
 // 메소드의 Override
 // TMI. 암묵적으로 모든 기본 클래스는 superclass인 Object 클래스로부터 상속받는다.
+// 상속은 복사의 개념이 아닌 공유의 개념 -> 자식에게 없는거라면 부모의 주소를 찾아간다.
 
 public class _1_InheritanceDemo //extends Object
 {
