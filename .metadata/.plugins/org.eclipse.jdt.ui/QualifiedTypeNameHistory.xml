@@ -18,4 +18,18 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="_1_Normal"/>
+    <fullyQualifiedTypeName name="_1_Abstract"/>
+    <fullyQualifiedTypeName name="_2_Normal"/>
+    <fullyQualifiedTypeName name="_2_Abstract"/>
+    <fullyQualifiedTypeName name="Cat"/>
+    <fullyQualifiedTypeName name="_3_Mammal"/>
+    <fullyQualifiedTypeName name="_5_GrandSon"/>
+    <fullyQualifiedTypeName name="_6_Car"/>
+    <fullyQualifiedTypeName name="_7_Interface"/>
+    <fullyQualifiedTypeName name="_7_Product"/>
+    <fullyQualifiedTypeName name="OuterClass"/>
+    <fullyQualifiedTypeName name="OuterClass.InnerClass"/>
+    <fullyQualifiedTypeName name="OuterClass2"/>
+    <fullyQualifiedTypeName name="InnerClass2"/>
 </qualifiedTypeNameHistroy>
