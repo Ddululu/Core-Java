@@ -5,19 +5,19 @@ public class _13_Finally {
 		 Student2 chulsu = new Student2(); 
 		 
 		 chulsu.setKor(90);
-		 
+		 // try에서 예외가 발생한다면 즉시 catch문으로 예외를 전달.
 		 try {	
 			 chulsu.setEng(120);	
-		 }catch(EnglishException e) {
+		 }catch(EnglishException e) { // catch문에서 해당하는 예외가 있다면 구문 실행
 			 System.out.println(e.getMessage());		
 			 }
 		 
-		try {			}
+		try {			} // try 동작 여부와 상관 없이 finally는 항상 실행
 		finally{			}
 		
-		try {			}
+		try {			} // try 중에 예외가 발생 했더라도 finally는 항상 실행
 		catch(Exception e){			}
-		finally {			}
+		finally {			} // try나 catch에서 return을 사용해 함수를 끝냈더라도 finally는 실행.
 	}
 }
 

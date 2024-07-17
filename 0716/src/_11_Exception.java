@@ -27,5 +27,5 @@ public class _11_Exception {
 		at _11_Exception.a(_11_Exception.java:7)   >>> b()를 호출한 a()에게 처리 요청
 		at _11_Exception.main(_11_Exception.java:4) >> a()를 호출한 main()에게 처리 요청
 		main은 최종적으로 컴파일러에게 물어봄 --> 컴파일러가 ArithmeticException을 리턴.
-		이 과정이 스택에서 이루어 진다 하여 StackTrace라고 한다.
+		이 과정을 콜스택이라고 하고 스택에서 이루어진 실행을 따라간다 하여 StackTrace라고 한다.
 */

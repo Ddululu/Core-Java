@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="_4_VariableArgumentDemo"/>
     <fullyQualifiedTypeName name="_8_ProductInfo"/>
     <fullyQualifiedTypeName name="_4_InitBlock"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="_5_InheritSuper"/>
     <fullyQualifiedTypeName name="_5_InheritSub"/>
     <fullyQualifiedTypeName name="_5_American"/>
@@ -28,8 +27,16 @@
     <fullyQualifiedTypeName name="_6_Car"/>
     <fullyQualifiedTypeName name="_7_Interface"/>
     <fullyQualifiedTypeName name="_7_Product"/>
-    <fullyQualifiedTypeName name="OuterClass"/>
     <fullyQualifiedTypeName name="OuterClass.InnerClass"/>
     <fullyQualifiedTypeName name="OuterClass2"/>
     <fullyQualifiedTypeName name="InnerClass2"/>
+    <fullyQualifiedTypeName name="OuterClass"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="Point"/>
+    <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="Car3"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
 </qualifiedTypeNameHistroy>

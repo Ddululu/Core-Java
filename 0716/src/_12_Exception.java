@@ -29,7 +29,8 @@ class Student{
 		// 개발자가 이 상황에서는 어떤 에러를 던지겠다고 정의. 
 	}
 	
-	// 메소드 선언부에 Exception을 선언할때는 throws, 
+	// 메소드에 Exception을 사용할때는 선언부에 throws를 사용한다.
+	// throws 키워드는 메소드에서 처리하지 못한 예외를 호출한 곳으로 떠넘기는 역할
 	// Runtime때 하지 않기 때문에 컴파일 전에 Exception 인지 체크 해야 함을 미리 알려줘야 한다.
 	public void setEng(int eng) throws Exception{ 
 		if (eng>=0&&eng<=100) this.eng =eng;
