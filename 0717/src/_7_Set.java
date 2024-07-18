@@ -7,7 +7,7 @@ import java.util.LinkedHashSet;
 // Set 컬렉션은 배열과 같지만 크기가 동적으로 늘어나고, 객체를 중복해서 저장하지 않는 특징이 있다.
 
 
-public class _6_Set {
+public class _7_Set {
 	
 	public static void main(String[] args) {
 		String [] array = {"한지민","박지민","홍지민","한지민","홍지민","신지민","곽지민"};

@@ -8,7 +8,7 @@ import java.util.LinkedList;
 // 즉, 넣은대로 출력된다.
 
 
-public class _7_List {
+public class _8_List {
 	public static void main(String[] args) {
 		String [] array = {"한지민","박지민","홍지민","한지민","홍지민","신지민","곽지민"};
 		List<String> list = new ArrayList<String>(5); // 초기 사이즈 5개 생성, 숫자 지정을 안했다면 기본 사이즈 10

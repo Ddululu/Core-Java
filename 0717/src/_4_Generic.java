@@ -1,6 +1,4 @@
-// Generic은 타입을 고정하지 않고 들어오는 형식에 맞게 Auto-Boxing Auto-Unboxing 하여 저장
-// Generic은 형식을 추상적으로 표현해 가장 효율적인 형식으로 변환하는 알고리즘
-// Generic의 목적은 자동 형변환을 이용하지 말고 자신의 형식에 맞게 사용하자
+
 public class _4_Generic {
 
 	public static void main(String[] args) {

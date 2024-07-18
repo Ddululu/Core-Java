@@ -1,18 +1,15 @@
-// Generic은 타입을 고정하지 않고 들어오는 형식에 맞게 Auto-Boxing Auto-Unboxing 하여 저장
-// Generic은 형식을 추상적으로 표현해 가장 효율적인 형식으로 변환하는 알고리즘
-// Generic의 목적은 자동 형변환을 이용하지 말고 자신의 형식에 맞게 사용하자
+// 기본적으로 Generic에서는 형변환이 안된다. 
+// 형변환과 가장 유사한 것이 wildcare type <?>
+// wildcard type로 선언하면 하위 클래스는 자동 형변환 가능
 public class _5_Generic {
-
 	public static void main(String[] args) {
 		
-		
-		// wildcard type은 최상위 객체인 Object와 같은 의미이지만, 기본적으로 Generic에서는 형변환이 안된다.
 		// Car4<Object> obj = new Car4<Integer>(); // 오류 출력 Object형에 Integer형 대입 불가
 		Car5<?> cube = new Car5<Integer>(); // -> <?>를 쓰면 Object 하위에 뭐가 나올지 모르겠지만 그거에 맞게 바꾼다는 의미
 		System.out.printf("price= %f\n",cube.getPrice());
 		
 		Car5<? extends Number> num = new Car5<Integer>(100); //-> the List must contain Numbers, Integers, Longs, Floats or one of the other subtypes of Number.
-		Car5<? super Number> num2 = new Car5<Integer>(100); // -> the List must contain either Numbers of Objects
+		Car5<? super Integer> num2 = new Car5<Number>(100); // -> the List must contain either Numbers of Objects
 		// super인 경우에는 실체형을 따라가고,
 		// extends인 경우에는 선언형을 따라간다.
 		// ?는 Object 형을 따라간다
@@ -24,7 +21,7 @@ public class _5_Generic {
 }
 
 
-class Car5<T extends Number>{ 
+class Car5<T>{ 
 	private T price; 
 	public Car5() { };
 	public Car5(T price) {

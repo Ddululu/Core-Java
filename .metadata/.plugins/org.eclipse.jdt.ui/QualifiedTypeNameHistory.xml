@@ -16,7 +16,6 @@
     <fullyQualifiedTypeName name="_5_Korean"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="_1_Normal"/>
     <fullyQualifiedTypeName name="_1_Abstract"/>
     <fullyQualifiedTypeName name="_2_Normal"/>
@@ -39,4 +38,13 @@
     <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.example.Product"/>
+    <fullyQualifiedTypeName name="com.example.Input"/>
+    <fullyQualifiedTypeName name="com.example.Calc"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="MyInterface"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.stream.DoubleStream"/>
 </qualifiedTypeNameHistroy>

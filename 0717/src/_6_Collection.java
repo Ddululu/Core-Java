@@ -6,7 +6,18 @@ import java.util.List;
 import java.util.Set;
 import java.util.Vector;
 
-public class _8_Collection {
+/*
+ * Collection은 특정 순서가 없는 객체 그룹
+ * 		- Set은 중복 요소가 없는 객체 그룹
+ * 			+ SortedSet은 Set과 같이 중복이 없지만 정렬된 그룹 
+ * 		- List는 중복이 허용된 객체 그룹
+ * Map은 키와 값으로 매핑한 그룹
+ * 		- SortedMap은 키, 값으로 된 그룹으로 키로 정렬된 그룹
+ * 
+ * 각 요소별 추가, 가져오기, 삭제 메소드는 기억
+ */
+
+public class _6_Collection {
 
 	public static void main(String[] args) {
 		String [] array = {"한지민","박지민","홍지민","한지민","홍지민","신지민","곽지민"};
