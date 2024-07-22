@@ -18,6 +18,7 @@ public class _1_Arrays {
 		//List<String> list1 = Arrays.asList("한지민","홍지민","이지민","박지민");
 		int [] array= {5,7,1,2,7,2,9,5};
 		Arrays.sort(array);
+		//
 		for(int a:array) System.out.print(a+", ");
 
 	}

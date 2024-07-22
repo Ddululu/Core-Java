@@ -18,7 +18,9 @@ import java.util.stream.Stream;
  * 			결과가 Stream 형식이기에 다른 Stream 연산에 사용하는 Chain 형식으로 사용할 수 있다.
  * 		3) Stream으로 결과(Output)를 만드는 최종 연산 (Stream -> Output), 
  * 			결과가 Stream이 아닌 형식이기에 다시 Stream 연산에 사용할 수 없다. 
+ * 			Output의 동작으로 가지고 있던 Stream을 Consume(소비) 하면서 처리하기 때문이다. 
  * 4. Stream 연산은 원본의데이터를 읽어서 기능을 수행하지만, 그 내용을 변경하지는 않는다.
+ * 		Lazy evaluation(지연 처리)로 필요한 요소만 그때그때 메모리에 올려 처리 (배열은 모든 요소를 메모리에 올려야 함)
  */
 
 public class _11_SteamAPI {

@@ -3,7 +3,7 @@
  * 1) 람다는 원래 객체지향언어에서 사용하지 않고 Scala나 Groovy 같은 함수형 언어에서 사용하던 문법
  * 2) 자바의 람다는 Lambda Expression, AWS의 람다는 Lambda Function
  * 			자바의 람다도 Function이나 Method 처럼 동작하지만 Lambda Method라고 하지 않는 이유는 
- * 			메소드는 클래스 안에서 객체의 행위를 정의하지만 람다는 특정 클래스의 소속이 아니기 때문
+ * 			"**메소드는 클래스 안에서 객체의 행위를 정의**"하지만 "**람다는 특정 클래스의 소속이 아니기 때문**"
  * 3) 람다 표현식을 사용하면 매개변수와 리턴타입만으로 간결한 코드 작성.
  * 			병렬 프로그래밍을 하지 않아도 되어 Collection Framework에서 효과적인 코드 작성 가능
  * 4) 순서
@@ -28,7 +28,7 @@ public class _2_Lambda {
 			};
 		my.add(3, 5);
 		
-		// 람다 표현: Anonymous 객체를 한줄로 표현 가능
+		// 람다 표현: Anonymous 객체를 한줄로 표현 가능 -> 그렇다고 익명 객체는 아님. (클래스가 X)
 		MyInterface lambda = (a,b) -> a+b;
 		lambda.add(3, 5);
 	}
