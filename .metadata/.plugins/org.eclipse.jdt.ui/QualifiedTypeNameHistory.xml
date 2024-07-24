@@ -53,4 +53,5 @@
     <fullyQualifiedTypeName name="Calc"/>
     <fullyQualifiedTypeName name="com.mysql.cj.jdbc.Driver"/>
     <fullyQualifiedTypeName name="com.example.DBClose"/>
+    <fullyQualifiedTypeName name="com.example.DBConnection"/>
 </qualifiedTypeNameHistroy>
