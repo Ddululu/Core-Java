@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>0725_환자관리프로그램</name>
+	<name>0730_환자관리프로그램</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -13,5 +13,6 @@
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.jkiss.dbeaver.DBeaverNature</nature>
 	</natures>
 </projectDescription>

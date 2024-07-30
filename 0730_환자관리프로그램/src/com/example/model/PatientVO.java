@@ -10,6 +10,24 @@ public class PatientVO {
 		private int hospitalFee;   //입원비
 		private int money;   //진료비
 		
+		public PatientVO() {};
+		
+		public void setNumber(int number) {
+			this.number = number;
+		}
+
+		public void setCode(String code) {
+			this.code = code;
+		}
+
+		public void setDays(int days) {
+			this.days = days;
+		}
+
+		public void setAge(int age) {
+			this.age = age;
+		}
+
 		public PatientVO(int number, String code, int days, int age) {
 			this.number = number;
 			this.code = code;

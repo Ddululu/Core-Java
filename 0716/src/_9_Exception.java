@@ -4,7 +4,7 @@ import java.util.Scanner;
  * 프로그램 상에서 처리가 가능한 수준의 오류를 Exception -> 코드를 수정해서 해결되는 에러
  * 처리가 불가능한 심각한 수준의 오류를 Error
  * RuntimeException은 UnChecked Exception, 체크하지 않음. 선언하지 않아도 무시함.
- * 이 외 Exception은 Checked Exception, 체크함. 선언을 안하면 에러라고 알려줌.
+ * 이 외 Exception은 Checked Exception, 체크함. 선언을 안하면 에러라고 알려줌
  */
 public class _9_Exception {
 	public static void main(String[] args) throws FileNotFoundException {
