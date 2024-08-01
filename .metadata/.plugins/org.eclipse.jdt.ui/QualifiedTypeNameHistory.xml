@@ -56,4 +56,7 @@
     <fullyQualifiedTypeName name="com.example.DBConnection"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="com.example.controller.DeleteController"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.jdbc.CallableStatement"/>
+    <fullyQualifiedTypeName name="java.sql.Types"/>
 </qualifiedTypeNameHistroy>
