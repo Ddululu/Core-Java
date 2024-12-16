@@ -16,4 +16,5 @@ org.eclipse.jdt.ui.PropertiesFileEditor.textfont=1|\uB9D1\uC740 \uACE0\uB515|16.
 org.eclipse.jdt.ui.editors.textfont=1|\uB9D1\uC740 \uACE0\uB515|16.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|\uB9D1\uC740 \uACE0\uB515;
 org.eclipse.jface.textfont=1|\uB9D1\uC740 \uACE0\uB515|16.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|\uB9D1\uC740 \uACE0\uB515;
 org.eclipse.mylyn.wikitext.ui.presentation.textFont=1|\uB9D1\uC740 \uACE0\uB515|16.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|\uB9D1\uC740 \uACE0\uB515;
+org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<org.eclipse.ui.commands/>
 terminal.views.view.font.definition=1|\uB9D1\uC740 \uACE0\uB515|16.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|\uB9D1\uC740 \uACE0\uB515;
